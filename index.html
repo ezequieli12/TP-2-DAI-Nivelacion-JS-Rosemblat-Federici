@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Adivina el Número</h1>
+    <p>Ingresa un número entre 1 y 100:</p>
+    <input type="number" id="respuestaUsuario" min="1" max="100">
+    <button onclick="ChequearRespuesta()">Intentar</button>
+    <p id="mensaje"></p>
+    <p>Intentos: <span id="intentos">0</span></p>
+    <button onclick="RepetirJuego()">Reiniciar Juego</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
